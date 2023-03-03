@@ -1,5 +1,6 @@
 from heranca_polimorfismo import ContaCorrente
 from heranca_polimorfismo import ContaPoupanca
+from heranca_polimorfismo import ContaInvestimento
 import numpy as np
 
 conta_paulo = ContaCorrente(24)
@@ -23,3 +24,5 @@ numeros = np.array([1,3,2,4,5])
 numeros = numeros*3
 
 print(numeros)
+
+conta_ricardo = ContaInvestimento(23)
