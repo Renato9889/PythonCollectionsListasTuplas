@@ -29,3 +29,11 @@ print(n3)
 numeros.sort()
 
 print(numeros)
+
+animais = ["Girafa","Jacare","Cachorro","Galinha","Abelha","Gato"]
+
+print(animais)
+
+animais = sorted(animais)
+
+print(animais)
